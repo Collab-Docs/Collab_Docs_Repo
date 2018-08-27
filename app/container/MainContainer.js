@@ -3,6 +3,9 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { Editor, EditorState, RichUtils } from 'draft-js';
 import { onChange } from '../actions/index';
+import createAutoListPlugin from 'draft-js-autolist-plugin'
+
+const autoListPlugin = createAutoListPlugin();
 
 const styleMap = {
    'FONTSIZE': {
@@ -12,7 +15,6 @@ const styleMap = {
      color: "red"
    }
   };
-
 
 class MainContainer extends React.Component {
   _onBoldClick() {
@@ -50,6 +52,20 @@ class MainContainer extends React.Component {
     ));
   }
 
+  createBulletPoints() {
+    this.props.onChange(RichUtils.toggleBlockType(
+      this.props.editorState,
+      'unordered-list-item'
+    ));
+  }
+
+  createNumberPoints() {
+    this.props.onChange(RichUtils.toggleBlockType(
+      this.props.editorState,
+      'ordered-list-item'
+    ));
+  }
+
   render() {
     return (
       <div>
@@ -58,11 +74,15 @@ class MainContainer extends React.Component {
         <button onClick={this._onUnderlineClick.bind(this)}>Underline</button>
         <button onClick={this._onFontSizeClick.bind(this)}>Font Size</button>
         <button onClick={this._onFontColorClick.bind(this)}>Font Color</button>
+        <button onClick={this.createBulletPoints.bind(this)}>Bullet points</button>
+        <button onClick={this.createNumberPoints.bind(this)}>Number points</button>
+
         <div className="editor">
           <Editor
           editorState = {this.props.editorState || EditorState.createEmpty()}
           onChange = {this.props.onChange}
           customStyleMap={styleMap}
+          onTab = {this._createList}
           />
       </div>
     </div>
