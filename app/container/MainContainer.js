@@ -15,9 +15,6 @@ const styleMap = {
 
 
 class MainContainer extends React.Component {
-
-
-
   _onBoldClick() {
     this.props.onChange(RichUtils.toggleInlineStyle(
       this.props.editorState,
@@ -59,6 +56,8 @@ class MainContainer extends React.Component {
         <button onClick={this._onBoldClick.bind(this)}>Bold</button>
         <button onClick={this._onItalicClick.bind(this)}>Italicize</button>
         <button onClick={this._onUnderlineClick.bind(this)}>Underline</button>
+        <button onClick={this._onFontSizeClick.bind(this)}>Font Size</button>
+        <button onClick={this._onFontColorClick.bind(this)}>Font Color</button>
         <div className="editor">
           <Editor
           editorState = {this.props.editorState || EditorState.createEmpty()}
