@@ -29,10 +29,10 @@ class MainContainer extends React.Component {
   render() {
     return (
       <div>
+        <button onClick={this._onBoldClick.bind(this)}>Bold</button>
+        <button onClick={this._onItalicClick.bind(this)}>Italicize</button>
+        <button onClick={this._onUnderlineClick.bind(this)}>Underline</button>
         <div className="editor">
-          <button onClick={this._onBoldClick.bind(this)}>Bold</button>
-          <button onClick={this._onItalicClick.bind(this)}>Italicize</button>
-          <button onClick={this._onUnderlineClick.bind(this)}>Underline</button>
           <Editor
           editorState = {this.props.editorState || EditorState.createEmpty()}
           onChange = {this.props.onChange}
