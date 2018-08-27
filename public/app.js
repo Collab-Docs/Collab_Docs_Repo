@@ -44297,8 +44297,24 @@ var MainContainer = function (_React$Component) {
         'div',
         null,
         _react2.default.createElement(
+          'button',
+          { onClick: this._onBoldClick.bind(this) },
+          'Bold'
+        ),
+        _react2.default.createElement(
+          'button',
+          { onClick: this._onItalicClick.bind(this) },
+          'Italicize'
+        ),
+        _react2.default.createElement(
+          'button',
+          { onClick: this._onUnderlineClick.bind(this) },
+          'Underline'
+        ),
+        _react2.default.createElement(
           'div',
           { className: 'editor' },
+<<<<<<< HEAD
           _react2.default.createElement(
             'button',
             { onClick: this._onBoldClick.bind(this) },
@@ -44324,6 +44340,8 @@ var MainContainer = function (_React$Component) {
             { onClick: this._onFontColorClick.bind(this) },
             'Font COLOR'
           ),
+=======
+>>>>>>> e1ed198d86d1cf9481c603270d9781149cd22bf1
           _react2.default.createElement(_draftJs.Editor, {
             editorState: this.props.editorState || _draftJs.EditorState.createEmpty(),
             onChange: this.props.onChange,
