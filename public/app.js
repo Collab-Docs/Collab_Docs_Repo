@@ -550,7 +550,7 @@
   require.brunch = true;
   globals.require = require;
 })();
-require.hmr({"___globals___":[],"auto-reload-brunch/vendor/auto-reload.js":[],"hmr-brunch/runtime.js":[],"initialize.jsx":["react-dom/index.js","react/index.js","react-redux/lib/index.js","redux/lib/index.js","reducers/index.js","components/App.js","reducers/index.js"],"actions/index.js":[],"components/App.js":["react/index.js","container/MainContainer.js"],"reducers/index.js":["draft-js/lib/Draft.js"],"container/MainContainer.js":["react/index.js","react-redux/lib/index.js","draft-js/lib/Draft.js","actions/index.js"],"react-redux/lib/index.js":["react-redux/lib/components/Provider.js","react-redux/lib/components/connectAdvanced.js","react-redux/lib/connect/connect.js"],"react-dom/index.js":["react-dom/cjs/react-dom.production.min.js","react-dom/cjs/react-dom.development.js"],"redux/lib/index.js":["redux/lib/createStore.js","redux/lib/combineReducers.js","redux/lib/bindActionCreators.js","redux/lib/applyMiddleware.js","redux/lib/compose.js","redux/lib/utils/warning.js"],"react/index.js":["react/cjs/react.production.min.js","react/cjs/react.development.js"],"react-redux/lib/components/Provider.js":["react/index.js","prop-types/index.js","react-redux/lib/utils/PropTypes.js","react-redux/lib/utils/warning.js"],"react-redux/lib/components/connectAdvanced.js":["hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js","invariant/browser.js","react/index.js","react-redux/lib/utils/Subscription.js","react-redux/lib/utils/PropTypes.js"],"react-redux/lib/connect/connect.js":["react-redux/lib/components/connectAdvanced.js","react-redux/lib/utils/shallowEqual.js","react-redux/lib/connect/mapDispatchToProps.js","react-redux/lib/connect/mapStateToProps.js","react-redux/lib/connect/mergeProps.js","react-redux/lib/connect/selectorFactory.js"],"react-dom/cjs/react-dom.development.js":["fbjs/lib/invariant.js","react/index.js","fbjs/lib/warning.js","fbjs/lib/ExecutionEnvironment.js","object-assign/index.js","fbjs/lib/emptyFunction.js","prop-types/checkPropTypes.js","fbjs/lib/getActiveElement.js","fbjs/lib/shallowEqual.js","fbjs/lib/containsNode.js","fbjs/lib/emptyObject.js","fbjs/lib/hyphenateStyleName.js","fbjs/lib/camelizeStyleName.js"],"react-dom/cjs/react-dom.production.min.js":["fbjs/lib/invariant.js","react/index.js","fbjs/lib/ExecutionEnvironment.js","object-assign/index.js","fbjs/lib/emptyFunction.js","fbjs/lib/getActiveElement.js","fbjs/lib/shallowEqual.js","fbjs/lib/containsNode.js","fbjs/lib/emptyObject.js"],"react/cjs/react.production.min.js":["object-assign/index.js","fbjs/lib/invariant.js","fbjs/lib/emptyObject.js","fbjs/lib/emptyFunction.js"],"react/cjs/react.development.js":["object-assign/index.js","fbjs/lib/invariant.js","fbjs/lib/emptyObject.js","fbjs/lib/warning.js","fbjs/lib/emptyFunction.js","prop-types/checkPropTypes.js","process/browser.js"],"redux/lib/combineReducers.js":["redux/lib/createStore.js","lodash/isPlainObject.js","redux/lib/utils/warning.js"],"redux/lib/createStore.js":["lodash/isPlainObject.js","symbol-observable/lib/index.js"],"redux/lib/bindActionCreators.js":[],"redux/lib/applyMiddleware.js":["redux/lib/compose.js"],"redux/lib/compose.js":[],"redux/lib/utils/warning.js":[],"draft-js/lib/Draft.js":["draft-js/lib/AtomicBlockUtils.js","draft-js/lib/BlockMapBuilder.js","draft-js/lib/CharacterMetadata.js","draft-js/lib/CompositeDraftDecorator.js","draft-js/lib/ContentBlock.js","draft-js/lib/ContentState.js","draft-js/lib/DefaultDraftBlockRenderMap.js","draft-js/lib/DefaultDraftInlineStyle.js","draft-js/lib/DraftEditor.react.js","draft-js/lib/DraftEditorBlock.react.js","draft-js/lib/DraftEntity.js","draft-js/lib/DraftModifier.js","draft-js/lib/DraftEntityInstance.js","draft-js/lib/EditorState.js","draft-js/lib/KeyBindingUtil.js","draft-js/lib/RichTextEditorUtil.js","draft-js/lib/SelectionState.js","draft-js/lib/convertFromDraftStateToRaw.js","draft-js/lib/convertFromHTMLToContentBlocks.js","draft-js/lib/convertFromRawToDraftState.js","draft-js/lib/generateRandomKey.js","draft-js/lib/getDefaultKeyBinding.js","draft-js/lib/getVisibleSelectionRect.js"],"react-redux/lib/utils/shallowEqual.js":[],"react-redux/lib/connect/mapStateToProps.js":["react-redux/lib/connect/wrapMapToProps.js"],"react-redux/lib/connect/mapDispatchToProps.js":["redux/lib/index.js","react-redux/lib/connect/wrapMapToProps.js"],"react-redux/lib/connect/mergeProps.js":["react-redux/lib/utils/verifyPlainObject.js"],"react-redux/lib/connect/selectorFactory.js":["react-redux/lib/connect/verifySubselectors.js"],"draft-js/lib/AtomicBlockUtils.js":["object-assign/index.js","draft-js/lib/BlockMapBuilder.js","draft-js/lib/CharacterMetadata.js","draft-js/lib/ContentBlock.js","draft-js/lib/ContentBlockNode.js","draft-js/lib/DraftFeatureFlags.js","draft-js/lib/DraftModifier.js","draft-js/lib/EditorState.js","immutable/dist/immutable.js","draft-js/lib/SelectionState.js","draft-js/lib/generateRandomKey.js","draft-js/lib/moveBlockInContentState.js"],"draft-js/lib/CompositeDraftDecorator.js":["immutable/dist/immutable.js"],"draft-js/lib/BlockMapBuilder.js":["immutable/dist/immutable.js"],"draft-js/lib/CharacterMetadata.js":["immutable/dist/immutable.js"],"draft-js/lib/ContentBlock.js":["draft-js/lib/CharacterMetadata.js","immutable/dist/immutable.js","draft-js/lib/findRangesImmutable.js"],"draft-js/lib/ContentState.js":["draft-js/lib/BlockMapBuilder.js","draft-js/lib/CharacterMetadata.js","draft-js/lib/ContentBlock.js","draft-js/lib/ContentBlockNode.js","draft-js/lib/DraftEntity.js","draft-js/lib/DraftFeatureFlags.js","immutable/dist/immutable.js","draft-js/lib/SelectionState.js","draft-js/lib/generateRandomKey.js","draft-js/lib/sanitizeDraftText.js"],"draft-js/lib/DefaultDraftInlineStyle.js":[],"draft-js/lib/DefaultDraftBlockRenderMap.js":["immutable/dist/immutable.js","react/index.js","fbjs/lib/cx.js"],"draft-js/lib/DraftEditor.react.js":["object-assign/index.js","draft-js/lib/DefaultDraftBlockRenderMap.js","draft-js/lib/DefaultDraftInlineStyle.js","draft-js/lib/DraftEditorCompositionHandler.js","draft-js/lib/DraftEditorContents.react.js","draft-js/lib/DraftEditorDragHandler.js","draft-js/lib/DraftEditorEditHandler.js","draft-js/lib/DraftEditorPlaceholder.react.js","draft-js/lib/EditorState.js","react/index.js","react-dom/index.js","fbjs/lib/Scroll.js","fbjs/lib/Style.js","fbjs/lib/UserAgent.js","fbjs/lib/cx.js","fbjs/lib/emptyFunction.js","draft-js/lib/generateRandomKey.js","draft-js/lib/getDefaultKeyBinding.js","fbjs/lib/getScrollPosition.js","fbjs/lib/invariant.js","fbjs/lib/nullthrows.js"],"draft-js/lib/DraftEditorBlock.react.js":["object-assign/index.js","draft-js/lib/DraftEditorLeaf.react.js","draft-js/lib/DraftOffsetKey.js","react/index.js","react-dom/index.js","fbjs/lib/Scroll.js","fbjs/lib/Style.js","fbjs/lib/UnicodeBidi.js","fbjs/lib/UnicodeBidiDirection.js","fbjs/lib/cx.js","fbjs/lib/getElementPosition.js","fbjs/lib/getScrollPosition.js","fbjs/lib/getViewportDimensions.js","fbjs/lib/invariant.js","fbjs/lib/nullthrows.js"],"draft-js/lib/DraftModifier.js":["draft-js/lib/CharacterMetadata.js","draft-js/lib/ContentStateInlineStyle.js","draft-js/lib/DraftFeatureFlags.js","immutable/dist/immutable.js","draft-js/lib/applyEntityToContentState.js","draft-js/lib/getCharacterRemovalRange.js","draft-js/lib/getContentStateFragment.js","draft-js/lib/insertFragmentIntoContentState.js","draft-js/lib/insertTextIntoContentState.js","fbjs/lib/invariant.js","draft-js/lib/modifyBlockForContentState.js","draft-js/lib/removeEntitiesAtEdges.js","draft-js/lib/removeRangeFromContentState.js","draft-js/lib/splitBlockInContentState.js"],"draft-js/lib/DraftEntityInstance.js":["immutable/dist/immutable.js"],"draft-js/lib/DraftEntity.js":["object-assign/index.js","draft-js/lib/DraftEntityInstance.js","immutable/dist/immutable.js","fbjs/lib/invariant.js"],"draft-js/lib/EditorState.js":["object-assign/index.js","draft-js/lib/BlockTree.js","draft-js/lib/ContentState.js","draft-js/lib/EditorBidiService.js","immutable/dist/immutable.js","draft-js/lib/SelectionState.js"],"draft-js/lib/KeyBindingUtil.js":["fbjs/lib/UserAgent.js"],"draft-js/lib/RichTextEditorUtil.js":["draft-js/lib/DraftModifier.js","draft-js/lib/EditorState.js","draft-js/lib/SelectionState.js","draft-js/lib/adjustBlockDepthForContentState.js","fbjs/lib/nullthrows.js"],"draft-js/lib/SelectionState.js":["immutable/dist/immutable.js"],"draft-js/lib/convertFromDraftStateToRaw.js":["object-assign/index.js","draft-js/lib/ContentBlock.js","draft-js/lib/ContentBlockNode.js","draft-js/lib/DraftStringKey.js","draft-js/lib/encodeEntityRanges.js","draft-js/lib/encodeInlineStyleRanges.js","fbjs/lib/invariant.js"],"draft-js/lib/convertFromHTMLToContentBlocks.js":["object-assign/index.js","draft-js/lib/CharacterMetadata.js","draft-js/lib/ContentBlock.js","draft-js/lib/ContentBlockNode.js","draft-js/lib/DefaultDraftBlockRenderMap.js","draft-js/lib/DraftEntity.js","draft-js/lib/DraftFeatureFlags.js","immutable/dist/immutable.js","immutable/dist/immutable.js","fbjs/lib/URI.js","fbjs/lib/cx.js","draft-js/lib/generateRandomKey.js","draft-js/lib/getSafeBodyFromHTML.js","fbjs/lib/invariant.js","draft-js/lib/sanitizeDraftText.js"],"draft-js/lib/convertFromRawToDraftState.js":["object-assign/index.js","draft-js/lib/ContentBlock.js","draft-js/lib/ContentBlockNode.js","draft-js/lib/ContentState.js","draft-js/lib/DraftEntity.js","draft-js/lib/DraftFeatureFlags.js","draft-js/lib/DraftTreeAdapter.js","immutable/dist/immutable.js","draft-js/lib/SelectionState.js","draft-js/lib/createCharacterList.js","draft-js/lib/decodeEntityRanges.js","draft-js/lib/decodeInlineStyleRanges.js","draft-js/lib/generateRandomKey.js","fbjs/lib/invariant.js"],"draft-js/lib/getDefaultKeyBinding.js":["draft-js/lib/KeyBindingUtil.js","fbjs/lib/Keys.js","fbjs/lib/UserAgent.js"],"draft-js/lib/generateRandomKey.js":[],"draft-js/lib/getVisibleSelectionRect.js":["draft-js/lib/getRangeBoundingClientRect.js"],"react-redux/lib/connect/wrapMapToProps.js":["react-redux/lib/utils/verifyPlainObject.js"],"react-redux/lib/utils/verifyPlainObject.js":["lodash/isPlainObject.js","react-redux/lib/utils/warning.js"],"react-redux/lib/connect/verifySubselectors.js":["react-redux/lib/utils/warning.js"],"draft-js/lib/getRangeBoundingClientRect.js":["draft-js/lib/getRangeClientRects.js"],"react-redux/lib/utils/warning.js":[],"draft-js/lib/getRangeClientRects.js":["fbjs/lib/UserAgent.js","fbjs/lib/invariant.js"],"react-redux/lib/utils/Subscription.js":[],"react-redux/lib/utils/PropTypes.js":["prop-types/index.js"],"invariant/browser.js":[],"hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js":[],"prop-types/index.js":["prop-types/factoryWithTypeCheckers.js","prop-types/factoryWithThrowingShims.js"],"lodash/isPlainObject.js":["lodash/_baseGetTag.js","lodash/_getPrototype.js","lodash/isObjectLike.js"],"symbol-observable/lib/index.js":["symbol-observable/lib/ponyfill.js"],"draft-js/lib/findRangesImmutable.js":[],"draft-js/lib/sanitizeDraftText.js":[],"draft-js/lib/DraftFeatureFlags.js":["draft-js/lib/DraftFeatureFlags-core.js"],"draft-js/lib/ContentBlockNode.js":["draft-js/lib/CharacterMetadata.js","immutable/dist/immutable.js","draft-js/lib/findRangesImmutable.js"],"draft-js/lib/BlockTree.js":["immutable/dist/immutable.js","fbjs/lib/emptyFunction.js","draft-js/lib/findRangesImmutable.js"],"draft-js/lib/EditorBidiService.js":["immutable/dist/immutable.js","fbjs/lib/UnicodeBidiService.js","fbjs/lib/nullthrows.js"],"draft-js/lib/moveBlockInContentState.js":["draft-js/lib/ContentBlockNode.js","immutable/dist/immutable.js","draft-js/lib/getNextDelimiterBlockKey.js","fbjs/lib/invariant.js"],"immutable/dist/immutable.js":[],"object-assign/index.js":[],"prop-types/factoryWithThrowingShims.js":["prop-types/lib/ReactPropTypesSecret.js"],"prop-types/factoryWithTypeCheckers.js":["object-assign/index.js","prop-types/lib/ReactPropTypesSecret.js","prop-types/checkPropTypes.js"],"lodash/_baseGetTag.js":["lodash/_Symbol.js","lodash/_getRawTag.js","lodash/_objectToString.js"],"lodash/_getPrototype.js":["lodash/_overArg.js"],"lodash/isObjectLike.js":[],"symbol-observable/lib/ponyfill.js":[],"draft-js/lib/DraftFeatureFlags-core.js":[],"prop-types/checkPropTypes.js":["prop-types/lib/ReactPropTypesSecret.js"],"fbjs/lib/invariant.js":[],"fbjs/lib/emptyFunction.js":[],"fbjs/lib/warning.js":["fbjs/lib/emptyFunction.js"],"fbjs/lib/ExecutionEnvironment.js":[],"fbjs/lib/getActiveElement.js":[],"fbjs/lib/containsNode.js":["fbjs/lib/isTextNode.js"],"fbjs/lib/shallowEqual.js":[],"fbjs/lib/emptyObject.js":[],"fbjs/lib/hyphenateStyleName.js":["fbjs/lib/hyphenate.js"],"fbjs/lib/camelizeStyleName.js":["fbjs/lib/camelize.js"],"process/browser.js":["process/browser.js"],"prop-types/lib/ReactPropTypesSecret.js":[],"lodash/_Symbol.js":["lodash/_root.js"],"lodash/_getRawTag.js":["lodash/_Symbol.js"],"lodash/_objectToString.js":[],"lodash/_overArg.js":[],"fbjs/lib/isTextNode.js":["fbjs/lib/isNode.js"],"lodash/_root.js":["lodash/_freeGlobal.js"],"fbjs/lib/camelize.js":[],"fbjs/lib/hyphenate.js":[],"fbjs/lib/cx.js":[],"draft-js/lib/ContentStateInlineStyle.js":["draft-js/lib/CharacterMetadata.js","immutable/dist/immutable.js"],"draft-js/lib/getContentStateFragment.js":["draft-js/lib/randomizeBlockMapKeys.js","draft-js/lib/removeEntitiesAtEdges.js"],"draft-js/lib/getCharacterRemovalRange.js":["draft-js/lib/DraftEntitySegments.js","draft-js/lib/getRangesForDraftEntity.js","fbjs/lib/invariant.js"],"draft-js/lib/insertFragmentIntoContentState.js":["draft-js/lib/BlockMapBuilder.js","draft-js/lib/ContentBlockNode.js","immutable/dist/immutable.js","draft-js/lib/insertIntoList.js","fbjs/lib/invariant.js","draft-js/lib/randomizeBlockMapKeys.js"],"draft-js/lib/applyEntityToContentState.js":["immutable/dist/immutable.js","draft-js/lib/applyEntityToContentBlock.js"],"draft-js/lib/insertTextIntoContentState.js":["immutable/dist/immutable.js","draft-js/lib/insertIntoList.js","fbjs/lib/invariant.js"],"draft-js/lib/modifyBlockForContentState.js":["immutable/dist/immutable.js"],"draft-js/lib/removeEntitiesAtEdges.js":["draft-js/lib/CharacterMetadata.js","draft-js/lib/findRangesImmutable.js","fbjs/lib/invariant.js"],"draft-js/lib/splitBlockInContentState.js":["draft-js/lib/ContentBlockNode.js","immutable/dist/immutable.js","draft-js/lib/generateRandomKey.js","fbjs/lib/invariant.js"],"draft-js/lib/removeRangeFromContentState.js":["draft-js/lib/ContentBlockNode.js","immutable/dist/immutable.js","draft-js/lib/getNextDelimiterBlockKey.js"],"fbjs/lib/Scroll.js":[],"fbjs/lib/Style.js":["fbjs/lib/getStyleProperty.js"],"draft-js/lib/DraftOffsetKey.js":[],"draft-js/lib/DraftEditorLeaf.react.js":["object-assign/index.js","draft-js/lib/DraftEditorTextNode.react.js","react/index.js","react-dom/index.js","fbjs/lib/invariant.js","draft-js/lib/setDraftEditorSelection.js"],"fbjs/lib/getScrollPosition.js":["fbjs/lib/getDocumentScrollElement.js","fbjs/lib/getUnboundedScrollPosition.js"],"fbjs/lib/UnicodeBidi.js":["fbjs/lib/UnicodeBidiDirection.js","fbjs/lib/invariant.js"],"fbjs/lib/UnicodeBidiDirection.js":["fbjs/lib/invariant.js"],"fbjs/lib/getElementPosition.js":["fbjs/lib/getElementRect.js"],"fbjs/lib/getViewportDimensions.js":[],"fbjs/lib/nullthrows.js":[],"fbjs/lib/UserAgent.js":["fbjs/lib/UserAgentData.js","fbjs/lib/VersionRange.js","fbjs/lib/mapObject.js","fbjs/lib/memoizeStringOnly.js"],"draft-js/lib/adjustBlockDepthForContentState.js":[],"draft-js/lib/DraftEditorDragHandler.js":["fbjs/lib/DataTransfer.js","draft-js/lib/DraftModifier.js","draft-js/lib/EditorState.js","draft-js/lib/findAncestorOffsetKey.js","draft-js/lib/getTextContentFromFiles.js","draft-js/lib/getUpdatedSelectionState.js","draft-js/lib/isEventHandled.js","fbjs/lib/nullthrows.js"],"draft-js/lib/DraftEditorContents.react.js":["draft-js/lib/DraftEditorContents-core.react.js"],"draft-js/lib/DraftEditorEditHandler.js":["draft-js/lib/editOnBeforeInput.js","draft-js/lib/editOnBlur.js","draft-js/lib/editOnCompositionStart.js","draft-js/lib/editOnCopy.js","draft-js/lib/editOnCut.js","draft-js/lib/editOnDragOver.js","draft-js/lib/editOnDragStart.js","draft-js/lib/editOnFocus.js","draft-js/lib/editOnInput.js","draft-js/lib/editOnKeyDown.js","draft-js/lib/editOnPaste.js","draft-js/lib/editOnSelect.js"],"draft-js/lib/DraftEditorCompositionHandler.js":["draft-js/lib/DraftFeatureFlags.js","draft-js/lib/DraftModifier.js","draft-js/lib/EditorState.js","fbjs/lib/Keys.js","draft-js/lib/getEntityKeyForSelection.js","draft-js/lib/isEventHandled.js","draft-js/lib/isSelectionAtLeafStart.js"],"draft-js/lib/DraftEditorPlaceholder.react.js":["react/index.js","fbjs/lib/cx.js"],"draft-js/lib/encodeInlineStyleRanges.js":["fbjs/lib/UnicodeUtils.js","draft-js/lib/findRangesImmutable.js"],"draft-js/lib/encodeEntityRanges.js":["draft-js/lib/DraftStringKey.js","fbjs/lib/UnicodeUtils.js"],"draft-js/lib/DraftStringKey.js":[],"draft-js/lib/decodeEntityRanges.js":["fbjs/lib/UnicodeUtils.js"],"draft-js/lib/createCharacterList.js":["draft-js/lib/CharacterMetadata.js","immutable/dist/immutable.js"],"draft-js/lib/DraftTreeAdapter.js":["object-assign/index.js","fbjs/lib/invariant.js"],"draft-js/lib/getSafeBodyFromHTML.js":["fbjs/lib/UserAgent.js","fbjs/lib/invariant.js"],"draft-js/lib/decodeInlineStyleRanges.js":["immutable/dist/immutable.js","fbjs/lib/UnicodeUtils.js"],"fbjs/lib/URI.js":[],"fbjs/lib/Keys.js":[],"lodash/_freeGlobal.js":[],"fbjs/lib/isNode.js":[],"fbjs/lib/getStyleProperty.js":["fbjs/lib/camelize.js","fbjs/lib/hyphenate.js"],"fbjs/lib/getDocumentScrollElement.js":[],"fbjs/lib/getUnboundedScrollPosition.js":[],"draft-js/lib/randomizeBlockMapKeys.js":["draft-js/lib/ContentBlockNode.js","immutable/dist/immutable.js","draft-js/lib/generateRandomKey.js"],"fbjs/lib/getElementRect.js":["fbjs/lib/containsNode.js"],"fbjs/lib/VersionRange.js":["fbjs/lib/invariant.js"],"fbjs/lib/mapObject.js":[],"fbjs/lib/UserAgentData.js":["ua-parser-js/src/ua-parser.js"],"fbjs/lib/memoizeStringOnly.js":[],"draft-js/lib/editOnBeforeInput.js":["draft-js/lib/BlockTree.js","draft-js/lib/DraftModifier.js","draft-js/lib/EditorState.js","fbjs/lib/UserAgent.js","draft-js/lib/getEntityKeyForSelection.js","draft-js/lib/isEventHandled.js","draft-js/lib/isSelectionAtLeafStart.js","fbjs/lib/nullthrows.js","fbjs/lib/setImmediate.js"],"draft-js/lib/editOnBlur.js":["draft-js/lib/EditorState.js","fbjs/lib/containsNode.js","fbjs/lib/getActiveElement.js"],"draft-js/lib/DraftEditorContents-core.react.js":["object-assign/index.js","draft-js/lib/DraftEditorBlock.react.js","draft-js/lib/DraftOffsetKey.js","draft-js/lib/EditorState.js","react/index.js","fbjs/lib/cx.js","fbjs/lib/joinClasses.js","fbjs/lib/nullthrows.js"],"draft-js/lib/editOnCompositionStart.js":["draft-js/lib/EditorState.js"],"draft-js/lib/editOnCopy.js":["draft-js/lib/getFragmentFromSelection.js"],"draft-js/lib/editOnCut.js":["draft-js/lib/DraftModifier.js","draft-js/lib/EditorState.js","fbjs/lib/Style.js","draft-js/lib/getFragmentFromSelection.js","fbjs/lib/getScrollPosition.js"],"draft-js/lib/editOnDragOver.js":[],"draft-js/lib/editOnFocus.js":["draft-js/lib/EditorState.js","fbjs/lib/UserAgent.js"],"draft-js/lib/editOnDragStart.js":[],"draft-js/lib/editOnInput.js":["draft-js/lib/DraftFeatureFlags.js","draft-js/lib/DraftModifier.js","draft-js/lib/DraftOffsetKey.js","draft-js/lib/EditorState.js","fbjs/lib/UserAgent.js","draft-js/lib/findAncestorOffsetKey.js","fbjs/lib/nullthrows.js"],"draft-js/lib/editOnKeyDown.js":["draft-js/lib/DraftModifier.js","draft-js/lib/EditorState.js","draft-js/lib/KeyBindingUtil.js","fbjs/lib/Keys.js","draft-js/lib/SecondaryClipboard.js","fbjs/lib/UserAgent.js","draft-js/lib/isEventHandled.js","draft-js/lib/keyCommandBackspaceToStartOfLine.js","draft-js/lib/keyCommandBackspaceWord.js","draft-js/lib/keyCommandDeleteWord.js","draft-js/lib/keyCommandInsertNewline.js","draft-js/lib/keyCommandMoveSelectionToEndOfBlock.js","draft-js/lib/keyCommandMoveSelectionToStartOfBlock.js","draft-js/lib/keyCommandPlainBackspace.js","draft-js/lib/keyCommandPlainDelete.js","draft-js/lib/keyCommandTransposeCharacters.js","draft-js/lib/keyCommandUndo.js"],"draft-js/lib/editOnPaste.js":["draft-js/lib/BlockMapBuilder.js","draft-js/lib/CharacterMetadata.js","fbjs/lib/DataTransfer.js","draft-js/lib/DraftModifier.js","draft-js/lib/DraftPasteProcessor.js","draft-js/lib/EditorState.js","draft-js/lib/RichTextEditorUtil.js","draft-js/lib/getEntityKeyForSelection.js","draft-js/lib/getTextContentFromFiles.js","draft-js/lib/isEventHandled.js","draft-js/lib/splitTextIntoTextBlocks.js"],"draft-js/lib/editOnSelect.js":["draft-js/lib/EditorState.js","react-dom/index.js","draft-js/lib/getDraftEditorSelection.js","fbjs/lib/invariant.js"],"draft-js/lib/getFragmentFromSelection.js":["draft-js/lib/getContentStateFragment.js"],"draft-js/lib/getNextDelimiterBlockKey.js":["draft-js/lib/ContentBlockNode.js"],"draft-js/lib/applyEntityToContentBlock.js":["draft-js/lib/CharacterMetadata.js"],"fbjs/lib/UnicodeBidiService.js":["fbjs/lib/UnicodeBidi.js","fbjs/lib/UnicodeBidiDirection.js","fbjs/lib/invariant.js"],"ua-parser-js/src/ua-parser.js":["process/browser.js"],"draft-js/lib/DraftEntitySegments.js":[],"draft-js/lib/insertIntoList.js":[],"draft-js/lib/getRangesForDraftEntity.js":["fbjs/lib/invariant.js"],"draft-js/lib/DraftEditorTextNode.react.js":["react/index.js","react-dom/index.js","fbjs/lib/UserAgent.js","fbjs/lib/invariant.js"],"draft-js/lib/setDraftEditorSelection.js":["draft-js/lib/DraftJsDebugLogging.js","fbjs/lib/containsNode.js","fbjs/lib/getActiveElement.js","fbjs/lib/invariant.js"],"draft-js/lib/findAncestorOffsetKey.js":["draft-js/lib/getSelectionOffsetKeyForNode.js"],"fbjs/lib/DataTransfer.js":["fbjs/lib/PhotosMimeType.js","fbjs/lib/createArrayFromMixed.js","fbjs/lib/emptyFunction.js"],"draft-js/lib/getTextContentFromFiles.js":["fbjs/lib/invariant.js"],"draft-js/lib/getUpdatedSelectionState.js":["draft-js/lib/DraftOffsetKey.js","fbjs/lib/nullthrows.js"],"draft-js/lib/isEventHandled.js":[],"draft-js/lib/getEntityKeyForSelection.js":[],"draft-js/lib/isSelectionAtLeafStart.js":[],"fbjs/lib/UnicodeUtils.js":["fbjs/lib/invariant.js"],"fbjs/lib/createArrayFromMixed.js":["fbjs/lib/invariant.js"],"fbjs/lib/PhotosMimeType.js":[],"fbjs/lib/setImmediate.js":["setimmediate/setImmediate.js"],"draft-js/lib/getSelectionOffsetKeyForNode.js":[],"draft-js/lib/keyCommandBackspaceToStartOfLine.js":["draft-js/lib/EditorState.js","draft-js/lib/expandRangeToStartOfLine.js","draft-js/lib/getDraftEditorSelectionWithNodes.js","draft-js/lib/moveSelectionBackward.js","draft-js/lib/removeTextWithStrategy.js"],"draft-js/lib/keyCommandBackspaceWord.js":["draft-js/lib/DraftRemovableWord.js","draft-js/lib/EditorState.js","draft-js/lib/moveSelectionBackward.js","draft-js/lib/removeTextWithStrategy.js"],"draft-js/lib/SecondaryClipboard.js":["draft-js/lib/DraftModifier.js","draft-js/lib/EditorState.js","draft-js/lib/getContentStateFragment.js","fbjs/lib/nullthrows.js"],"fbjs/lib/joinClasses.js":[],"draft-js/lib/keyCommandDeleteWord.js":["draft-js/lib/DraftRemovableWord.js","draft-js/lib/EditorState.js","draft-js/lib/moveSelectionForward.js","draft-js/lib/removeTextWithStrategy.js"],"draft-js/lib/keyCommandInsertNewline.js":["draft-js/lib/DraftModifier.js","draft-js/lib/EditorState.js"],"draft-js/lib/keyCommandMoveSelectionToStartOfBlock.js":["draft-js/lib/EditorState.js"],"draft-js/lib/keyCommandMoveSelectionToEndOfBlock.js":["draft-js/lib/EditorState.js"],"draft-js/lib/keyCommandPlainDelete.js":["draft-js/lib/EditorState.js","fbjs/lib/UnicodeUtils.js","draft-js/lib/moveSelectionForward.js","draft-js/lib/removeTextWithStrategy.js"],"draft-js/lib/keyCommandPlainBackspace.js":["draft-js/lib/EditorState.js","fbjs/lib/UnicodeUtils.js","draft-js/lib/moveSelectionBackward.js","draft-js/lib/removeTextWithStrategy.js"],"draft-js/lib/keyCommandTransposeCharacters.js":["draft-js/lib/DraftModifier.js","draft-js/lib/EditorState.js","draft-js/lib/getContentStateFragment.js"],"draft-js/lib/keyCommandUndo.js":["draft-js/lib/EditorState.js"],"draft-js/lib/DraftPasteProcessor.js":["object-assign/index.js","draft-js/lib/CharacterMetadata.js","draft-js/lib/ContentBlock.js","draft-js/lib/ContentBlockNode.js","draft-js/lib/DraftFeatureFlags.js","immutable/dist/immutable.js","draft-js/lib/convertFromHTMLToContentBlocks.js","draft-js/lib/generateRandomKey.js","draft-js/lib/getSafeBodyFromHTML.js","draft-js/lib/sanitizeDraftText.js"],"draft-js/lib/getDraftEditorSelection.js":["draft-js/lib/getDraftEditorSelectionWithNodes.js"],"draft-js/lib/splitTextIntoTextBlocks.js":[],"draft-js/lib/removeTextWithStrategy.js":["draft-js/lib/DraftModifier.js"],"draft-js/lib/getDraftEditorSelectionWithNodes.js":["draft-js/lib/findAncestorOffsetKey.js","draft-js/lib/getSelectionOffsetKeyForNode.js","draft-js/lib/getUpdatedSelectionState.js","fbjs/lib/invariant.js","fbjs/lib/nullthrows.js"],"draft-js/lib/expandRangeToStartOfLine.js":["fbjs/lib/UnicodeUtils.js","draft-js/lib/getRangeClientRects.js","fbjs/lib/invariant.js"],"draft-js/lib/moveSelectionBackward.js":[],"draft-js/lib/DraftRemovableWord.js":["fbjs/lib/TokenizeUtil.js"],"draft-js/lib/moveSelectionForward.js":[],"setimmediate/setImmediate.js":["process/browser.js"],"draft-js/lib/DraftJsDebugLogging.js":[],"fbjs/lib/TokenizeUtil.js":[]}, function(require) {
+require.hmr({"___globals___":[],"auto-reload-brunch/vendor/auto-reload.js":[],"hmr-brunch/runtime.js":[],"actions/index.js":[],"container/MainContainer.js":["react/index.js","react-redux/lib/index.js","draft-js/lib/Draft.js","actions/index.js"],"components/App.js":["react/index.js","container/MainContainer.js"],"reducers/index.js":["draft-js/lib/Draft.js"],"initialize.jsx":["react-dom/index.js","react/index.js","react-redux/lib/index.js","redux/lib/index.js","reducers/index.js","components/App.js","reducers/index.js"],"react-dom/index.js":["react-dom/cjs/react-dom.production.min.js","react-dom/cjs/react-dom.development.js"],"react/index.js":["react/cjs/react.production.min.js","react/cjs/react.development.js"],"react-redux/lib/index.js":["react-redux/lib/components/Provider.js","react-redux/lib/components/connectAdvanced.js","react-redux/lib/connect/connect.js"],"redux/lib/index.js":["redux/lib/createStore.js","redux/lib/combineReducers.js","redux/lib/bindActionCreators.js","redux/lib/applyMiddleware.js","redux/lib/compose.js","redux/lib/utils/warning.js"],"react-dom/cjs/react-dom.production.min.js":["fbjs/lib/invariant.js","react/index.js","fbjs/lib/ExecutionEnvironment.js","object-assign/index.js","fbjs/lib/emptyFunction.js","fbjs/lib/getActiveElement.js","fbjs/lib/shallowEqual.js","fbjs/lib/containsNode.js","fbjs/lib/emptyObject.js"],"react-dom/cjs/react-dom.development.js":["fbjs/lib/invariant.js","react/index.js","fbjs/lib/warning.js","fbjs/lib/ExecutionEnvironment.js","object-assign/index.js","fbjs/lib/emptyFunction.js","prop-types/checkPropTypes.js","fbjs/lib/getActiveElement.js","fbjs/lib/shallowEqual.js","fbjs/lib/containsNode.js","fbjs/lib/emptyObject.js","fbjs/lib/hyphenateStyleName.js","fbjs/lib/camelizeStyleName.js"],"draft-js/lib/Draft.js":["draft-js/lib/AtomicBlockUtils.js","draft-js/lib/BlockMapBuilder.js","draft-js/lib/CharacterMetadata.js","draft-js/lib/CompositeDraftDecorator.js","draft-js/lib/ContentBlock.js","draft-js/lib/ContentState.js","draft-js/lib/DefaultDraftBlockRenderMap.js","draft-js/lib/DefaultDraftInlineStyle.js","draft-js/lib/DraftEditor.react.js","draft-js/lib/DraftEditorBlock.react.js","draft-js/lib/DraftEntity.js","draft-js/lib/DraftModifier.js","draft-js/lib/DraftEntityInstance.js","draft-js/lib/EditorState.js","draft-js/lib/KeyBindingUtil.js","draft-js/lib/RichTextEditorUtil.js","draft-js/lib/SelectionState.js","draft-js/lib/convertFromDraftStateToRaw.js","draft-js/lib/convertFromHTMLToContentBlocks.js","draft-js/lib/convertFromRawToDraftState.js","draft-js/lib/generateRandomKey.js","draft-js/lib/getDefaultKeyBinding.js","draft-js/lib/getVisibleSelectionRect.js"],"react/cjs/react.production.min.js":["object-assign/index.js","fbjs/lib/invariant.js","fbjs/lib/emptyObject.js","fbjs/lib/emptyFunction.js"],"react/cjs/react.development.js":["object-assign/index.js","fbjs/lib/invariant.js","fbjs/lib/emptyObject.js","fbjs/lib/warning.js","fbjs/lib/emptyFunction.js","prop-types/checkPropTypes.js","brunch/node_modules/process/browser.js"],"react-redux/lib/components/connectAdvanced.js":["hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js","invariant/browser.js","react/index.js","react-redux/lib/utils/Subscription.js","react-redux/lib/utils/PropTypes.js"],"react-redux/lib/components/Provider.js":["react/index.js","prop-types/index.js","react-redux/lib/utils/PropTypes.js","react-redux/lib/utils/warning.js"],"react-redux/lib/connect/connect.js":["react-redux/lib/components/connectAdvanced.js","react-redux/lib/utils/shallowEqual.js","react-redux/lib/connect/mapDispatchToProps.js","react-redux/lib/connect/mapStateToProps.js","react-redux/lib/connect/mergeProps.js","react-redux/lib/connect/selectorFactory.js"],"redux/lib/combineReducers.js":["redux/lib/createStore.js","lodash/isPlainObject.js","redux/lib/utils/warning.js"],"redux/lib/compose.js":[],"redux/lib/bindActionCreators.js":[],"redux/lib/utils/warning.js":[],"redux/lib/applyMiddleware.js":["redux/lib/compose.js"],"redux/lib/createStore.js":["lodash/isPlainObject.js","symbol-observable/lib/index.js"],"draft-js/lib/AtomicBlockUtils.js":["object-assign/index.js","draft-js/lib/BlockMapBuilder.js","draft-js/lib/CharacterMetadata.js","draft-js/lib/ContentBlock.js","draft-js/lib/ContentBlockNode.js","draft-js/lib/DraftFeatureFlags.js","draft-js/lib/DraftModifier.js","draft-js/lib/EditorState.js","immutable/dist/immutable.js","draft-js/lib/SelectionState.js","draft-js/lib/generateRandomKey.js","draft-js/lib/moveBlockInContentState.js"],"draft-js/lib/CharacterMetadata.js":["immutable/dist/immutable.js"],"draft-js/lib/CompositeDraftDecorator.js":["immutable/dist/immutable.js"],"draft-js/lib/ContentBlock.js":["draft-js/lib/CharacterMetadata.js","immutable/dist/immutable.js","draft-js/lib/findRangesImmutable.js"],"draft-js/lib/ContentState.js":["draft-js/lib/BlockMapBuilder.js","draft-js/lib/CharacterMetadata.js","draft-js/lib/ContentBlock.js","draft-js/lib/ContentBlockNode.js","draft-js/lib/DraftEntity.js","draft-js/lib/DraftFeatureFlags.js","immutable/dist/immutable.js","draft-js/lib/SelectionState.js","draft-js/lib/generateRandomKey.js","draft-js/lib/sanitizeDraftText.js"],"draft-js/lib/DraftEditor.react.js":["object-assign/index.js","draft-js/lib/DefaultDraftBlockRenderMap.js","draft-js/lib/DefaultDraftInlineStyle.js","draft-js/lib/DraftEditorCompositionHandler.js","draft-js/lib/DraftEditorContents.react.js","draft-js/lib/DraftEditorDragHandler.js","draft-js/lib/DraftEditorEditHandler.js","draft-js/lib/DraftEditorPlaceholder.react.js","draft-js/lib/EditorState.js","react/index.js","react-dom/index.js","fbjs/lib/Scroll.js","fbjs/lib/Style.js","fbjs/lib/UserAgent.js","fbjs/lib/cx.js","fbjs/lib/emptyFunction.js","draft-js/lib/generateRandomKey.js","draft-js/lib/getDefaultKeyBinding.js","fbjs/lib/getScrollPosition.js","fbjs/lib/invariant.js","fbjs/lib/nullthrows.js"],"draft-js/lib/DraftEditorBlock.react.js":["object-assign/index.js","draft-js/lib/DraftEditorLeaf.react.js","draft-js/lib/DraftOffsetKey.js","react/index.js","react-dom/index.js","fbjs/lib/Scroll.js","fbjs/lib/Style.js","fbjs/lib/UnicodeBidi.js","fbjs/lib/UnicodeBidiDirection.js","fbjs/lib/cx.js","fbjs/lib/getElementPosition.js","fbjs/lib/getScrollPosition.js","fbjs/lib/getViewportDimensions.js","fbjs/lib/invariant.js","fbjs/lib/nullthrows.js"],"draft-js/lib/BlockMapBuilder.js":["immutable/dist/immutable.js"],"draft-js/lib/DefaultDraftBlockRenderMap.js":["immutable/dist/immutable.js","react/index.js","fbjs/lib/cx.js"],"draft-js/lib/DefaultDraftInlineStyle.js":[],"draft-js/lib/DraftEntity.js":["object-assign/index.js","draft-js/lib/DraftEntityInstance.js","immutable/dist/immutable.js","fbjs/lib/invariant.js"],"draft-js/lib/DraftEntityInstance.js":["immutable/dist/immutable.js"],"draft-js/lib/DraftModifier.js":["draft-js/lib/CharacterMetadata.js","draft-js/lib/ContentStateInlineStyle.js","draft-js/lib/DraftFeatureFlags.js","immutable/dist/immutable.js","draft-js/lib/applyEntityToContentState.js","draft-js/lib/getCharacterRemovalRange.js","draft-js/lib/getContentStateFragment.js","draft-js/lib/insertFragmentIntoContentState.js","draft-js/lib/insertTextIntoContentState.js","fbjs/lib/invariant.js","draft-js/lib/modifyBlockForContentState.js","draft-js/lib/removeEntitiesAtEdges.js","draft-js/lib/removeRangeFromContentState.js","draft-js/lib/splitBlockInContentState.js"],"draft-js/lib/RichTextEditorUtil.js":["draft-js/lib/DraftModifier.js","draft-js/lib/EditorState.js","draft-js/lib/SelectionState.js","draft-js/lib/adjustBlockDepthForContentState.js","fbjs/lib/nullthrows.js"],"draft-js/lib/SelectionState.js":["immutable/dist/immutable.js"],"draft-js/lib/KeyBindingUtil.js":["fbjs/lib/UserAgent.js"],"draft-js/lib/convertFromDraftStateToRaw.js":["object-assign/index.js","draft-js/lib/ContentBlock.js","draft-js/lib/ContentBlockNode.js","draft-js/lib/DraftStringKey.js","draft-js/lib/encodeEntityRanges.js","draft-js/lib/encodeInlineStyleRanges.js","fbjs/lib/invariant.js"],"draft-js/lib/convertFromHTMLToContentBlocks.js":["object-assign/index.js","draft-js/lib/CharacterMetadata.js","draft-js/lib/ContentBlock.js","draft-js/lib/ContentBlockNode.js","draft-js/lib/DefaultDraftBlockRenderMap.js","draft-js/lib/DraftEntity.js","draft-js/lib/DraftFeatureFlags.js","immutable/dist/immutable.js","immutable/dist/immutable.js","fbjs/lib/URI.js","fbjs/lib/cx.js","draft-js/lib/generateRandomKey.js","draft-js/lib/getSafeBodyFromHTML.js","fbjs/lib/invariant.js","draft-js/lib/sanitizeDraftText.js"],"draft-js/lib/convertFromRawToDraftState.js":["object-assign/index.js","draft-js/lib/ContentBlock.js","draft-js/lib/ContentBlockNode.js","draft-js/lib/ContentState.js","draft-js/lib/DraftEntity.js","draft-js/lib/DraftFeatureFlags.js","draft-js/lib/DraftTreeAdapter.js","immutable/dist/immutable.js","draft-js/lib/SelectionState.js","draft-js/lib/createCharacterList.js","draft-js/lib/decodeEntityRanges.js","draft-js/lib/decodeInlineStyleRanges.js","draft-js/lib/generateRandomKey.js","fbjs/lib/invariant.js"],"draft-js/lib/getDefaultKeyBinding.js":["draft-js/lib/KeyBindingUtil.js","fbjs/lib/Keys.js","fbjs/lib/UserAgent.js"],"draft-js/lib/getVisibleSelectionRect.js":["draft-js/lib/getRangeBoundingClientRect.js"],"draft-js/lib/EditorState.js":["object-assign/index.js","draft-js/lib/BlockTree.js","draft-js/lib/ContentState.js","draft-js/lib/EditorBidiService.js","immutable/dist/immutable.js","draft-js/lib/SelectionState.js"],"draft-js/lib/generateRandomKey.js":[],"react-redux/lib/utils/shallowEqual.js":[],"react-redux/lib/connect/mapDispatchToProps.js":["redux/lib/index.js","react-redux/lib/connect/wrapMapToProps.js"],"react-redux/lib/connect/mapStateToProps.js":["react-redux/lib/connect/wrapMapToProps.js"],"react-redux/lib/connect/selectorFactory.js":["react-redux/lib/connect/verifySubselectors.js"],"react-redux/lib/connect/mergeProps.js":["react-redux/lib/utils/verifyPlainObject.js"],"draft-js/lib/getRangeBoundingClientRect.js":["draft-js/lib/getRangeClientRects.js"],"react-redux/lib/connect/wrapMapToProps.js":["react-redux/lib/utils/verifyPlainObject.js"],"react-redux/lib/utils/verifyPlainObject.js":["lodash/isPlainObject.js","react-redux/lib/utils/warning.js"],"react-redux/lib/connect/verifySubselectors.js":["react-redux/lib/utils/warning.js"],"draft-js/lib/getRangeClientRects.js":["fbjs/lib/UserAgent.js","fbjs/lib/invariant.js"],"react-redux/lib/utils/warning.js":[],"draft-js/lib/findRangesImmutable.js":[],"draft-js/lib/sanitizeDraftText.js":[],"draft-js/lib/ContentBlockNode.js":["draft-js/lib/CharacterMetadata.js","immutable/dist/immutable.js","draft-js/lib/findRangesImmutable.js"],"draft-js/lib/DraftFeatureFlags.js":["draft-js/lib/DraftFeatureFlags-core.js"],"draft-js/lib/moveBlockInContentState.js":["draft-js/lib/ContentBlockNode.js","immutable/dist/immutable.js","draft-js/lib/getNextDelimiterBlockKey.js","fbjs/lib/invariant.js"],"immutable/dist/immutable.js":[],"draft-js/lib/BlockTree.js":["immutable/dist/immutable.js","fbjs/lib/emptyFunction.js","draft-js/lib/findRangesImmutable.js"],"draft-js/lib/EditorBidiService.js":["immutable/dist/immutable.js","fbjs/lib/UnicodeBidiService.js","fbjs/lib/nullthrows.js"],"object-assign/index.js":[],"draft-js/lib/DraftFeatureFlags-core.js":[],"lodash/isPlainObject.js":["lodash/_baseGetTag.js","lodash/_getPrototype.js","lodash/isObjectLike.js"],"react-redux/lib/utils/PropTypes.js":["prop-types/index.js"],"hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js":[],"invariant/browser.js":[],"react-redux/lib/utils/Subscription.js":[],"symbol-observable/lib/index.js":["symbol-observable/lib/ponyfill.js"],"prop-types/index.js":["prop-types/factoryWithTypeCheckers.js","prop-types/factoryWithThrowingShims.js"],"prop-types/checkPropTypes.js":["prop-types/lib/ReactPropTypesSecret.js"],"fbjs/lib/emptyFunction.js":[],"fbjs/lib/invariant.js":[],"fbjs/lib/ExecutionEnvironment.js":[],"fbjs/lib/emptyObject.js":[],"fbjs/lib/warning.js":["fbjs/lib/emptyFunction.js"],"fbjs/lib/shallowEqual.js":[],"fbjs/lib/containsNode.js":["fbjs/lib/isTextNode.js"],"fbjs/lib/getActiveElement.js":[],"fbjs/lib/hyphenateStyleName.js":["fbjs/lib/hyphenate.js"],"lodash/_baseGetTag.js":["lodash/_Symbol.js","lodash/_getRawTag.js","lodash/_objectToString.js"],"lodash/_getPrototype.js":["lodash/_overArg.js"],"lodash/isObjectLike.js":[],"fbjs/lib/camelizeStyleName.js":["fbjs/lib/camelize.js"],"symbol-observable/lib/ponyfill.js":[],"prop-types/factoryWithThrowingShims.js":["prop-types/lib/ReactPropTypesSecret.js"],"prop-types/factoryWithTypeCheckers.js":["object-assign/index.js","prop-types/lib/ReactPropTypesSecret.js","prop-types/checkPropTypes.js"],"prop-types/lib/ReactPropTypesSecret.js":[],"brunch/node_modules/process/browser.js":["brunch/node_modules/process/browser.js"],"fbjs/lib/isTextNode.js":["fbjs/lib/isNode.js"],"lodash/_Symbol.js":["lodash/_root.js"],"lodash/_getRawTag.js":["lodash/_Symbol.js"],"lodash/_objectToString.js":[],"lodash/_overArg.js":[],"fbjs/lib/hyphenate.js":[],"draft-js/lib/DraftEditorCompositionHandler.js":["draft-js/lib/DraftFeatureFlags.js","draft-js/lib/DraftModifier.js","draft-js/lib/EditorState.js","fbjs/lib/Keys.js","draft-js/lib/getEntityKeyForSelection.js","draft-js/lib/isEventHandled.js","draft-js/lib/isSelectionAtLeafStart.js"],"draft-js/lib/DraftEditorContents.react.js":["draft-js/lib/DraftEditorContents-core.react.js"],"draft-js/lib/DraftEditorDragHandler.js":["fbjs/lib/DataTransfer.js","draft-js/lib/DraftModifier.js","draft-js/lib/EditorState.js","draft-js/lib/findAncestorOffsetKey.js","draft-js/lib/getTextContentFromFiles.js","draft-js/lib/getUpdatedSelectionState.js","draft-js/lib/isEventHandled.js","fbjs/lib/nullthrows.js"],"draft-js/lib/DraftEditorEditHandler.js":["draft-js/lib/editOnBeforeInput.js","draft-js/lib/editOnBlur.js","draft-js/lib/editOnCompositionStart.js","draft-js/lib/editOnCopy.js","draft-js/lib/editOnCut.js","draft-js/lib/editOnDragOver.js","draft-js/lib/editOnDragStart.js","draft-js/lib/editOnFocus.js","draft-js/lib/editOnInput.js","draft-js/lib/editOnKeyDown.js","draft-js/lib/editOnPaste.js","draft-js/lib/editOnSelect.js"],"draft-js/lib/DraftEditorPlaceholder.react.js":["react/index.js","fbjs/lib/cx.js"],"fbjs/lib/UserAgent.js":["fbjs/lib/UserAgentData.js","fbjs/lib/VersionRange.js","fbjs/lib/mapObject.js","fbjs/lib/memoizeStringOnly.js"],"fbjs/lib/Style.js":["fbjs/lib/getStyleProperty.js"],"fbjs/lib/Scroll.js":[],"draft-js/lib/DraftEditorLeaf.react.js":["object-assign/index.js","draft-js/lib/DraftEditorTextNode.react.js","react/index.js","react-dom/index.js","fbjs/lib/invariant.js","draft-js/lib/setDraftEditorSelection.js"],"fbjs/lib/cx.js":[],"fbjs/lib/nullthrows.js":[],"fbjs/lib/getScrollPosition.js":["fbjs/lib/getDocumentScrollElement.js","fbjs/lib/getUnboundedScrollPosition.js"],"draft-js/lib/DraftOffsetKey.js":[],"fbjs/lib/UnicodeBidi.js":["fbjs/lib/UnicodeBidiDirection.js","fbjs/lib/invariant.js"],"fbjs/lib/UnicodeBidiDirection.js":["fbjs/lib/invariant.js"],"fbjs/lib/getElementPosition.js":["fbjs/lib/getElementRect.js"],"draft-js/lib/ContentStateInlineStyle.js":["draft-js/lib/CharacterMetadata.js","immutable/dist/immutable.js"],"draft-js/lib/adjustBlockDepthForContentState.js":[],"draft-js/lib/applyEntityToContentState.js":["immutable/dist/immutable.js","draft-js/lib/applyEntityToContentBlock.js"],"fbjs/lib/getViewportDimensions.js":[],"draft-js/lib/getContentStateFragment.js":["draft-js/lib/randomizeBlockMapKeys.js","draft-js/lib/removeEntitiesAtEdges.js"],"draft-js/lib/getCharacterRemovalRange.js":["draft-js/lib/DraftEntitySegments.js","draft-js/lib/getRangesForDraftEntity.js","fbjs/lib/invariant.js"],"draft-js/lib/insertFragmentIntoContentState.js":["draft-js/lib/BlockMapBuilder.js","draft-js/lib/ContentBlockNode.js","immutable/dist/immutable.js","draft-js/lib/insertIntoList.js","fbjs/lib/invariant.js","draft-js/lib/randomizeBlockMapKeys.js"],"draft-js/lib/insertTextIntoContentState.js":["immutable/dist/immutable.js","draft-js/lib/insertIntoList.js","fbjs/lib/invariant.js"],"draft-js/lib/splitBlockInContentState.js":["draft-js/lib/ContentBlockNode.js","immutable/dist/immutable.js","draft-js/lib/generateRandomKey.js","fbjs/lib/invariant.js"],"draft-js/lib/modifyBlockForContentState.js":["immutable/dist/immutable.js"],"draft-js/lib/removeEntitiesAtEdges.js":["draft-js/lib/CharacterMetadata.js","draft-js/lib/findRangesImmutable.js","fbjs/lib/invariant.js"],"draft-js/lib/removeRangeFromContentState.js":["draft-js/lib/ContentBlockNode.js","immutable/dist/immutable.js","draft-js/lib/getNextDelimiterBlockKey.js"],"draft-js/lib/encodeEntityRanges.js":["draft-js/lib/DraftStringKey.js","fbjs/lib/UnicodeUtils.js"],"draft-js/lib/encodeInlineStyleRanges.js":["fbjs/lib/UnicodeUtils.js","draft-js/lib/findRangesImmutable.js"],"draft-js/lib/getSafeBodyFromHTML.js":["fbjs/lib/UserAgent.js","fbjs/lib/invariant.js"],"fbjs/lib/URI.js":[],"draft-js/lib/createCharacterList.js":["draft-js/lib/CharacterMetadata.js","immutable/dist/immutable.js"],"draft-js/lib/decodeEntityRanges.js":["fbjs/lib/UnicodeUtils.js"],"draft-js/lib/decodeInlineStyleRanges.js":["immutable/dist/immutable.js","fbjs/lib/UnicodeUtils.js"],"draft-js/lib/DraftStringKey.js":[],"draft-js/lib/DraftTreeAdapter.js":["object-assign/index.js","fbjs/lib/invariant.js"],"fbjs/lib/Keys.js":[],"fbjs/lib/camelize.js":[],"lodash/_root.js":["lodash/_freeGlobal.js"],"fbjs/lib/isNode.js":[],"draft-js/lib/editOnBeforeInput.js":["draft-js/lib/BlockTree.js","draft-js/lib/DraftModifier.js","draft-js/lib/EditorState.js","fbjs/lib/UserAgent.js","draft-js/lib/getEntityKeyForSelection.js","draft-js/lib/isEventHandled.js","draft-js/lib/isSelectionAtLeafStart.js","fbjs/lib/nullthrows.js","fbjs/lib/setImmediate.js"],"draft-js/lib/editOnBlur.js":["draft-js/lib/EditorState.js","fbjs/lib/containsNode.js","fbjs/lib/getActiveElement.js"],"draft-js/lib/editOnCompositionStart.js":["draft-js/lib/EditorState.js"],"draft-js/lib/DraftEditorContents-core.react.js":["object-assign/index.js","draft-js/lib/DraftEditorBlock.react.js","draft-js/lib/DraftOffsetKey.js","draft-js/lib/EditorState.js","react/index.js","fbjs/lib/cx.js","fbjs/lib/joinClasses.js","fbjs/lib/nullthrows.js"],"draft-js/lib/editOnCopy.js":["draft-js/lib/getFragmentFromSelection.js"],"draft-js/lib/editOnCut.js":["draft-js/lib/DraftModifier.js","draft-js/lib/EditorState.js","fbjs/lib/Style.js","draft-js/lib/getFragmentFromSelection.js","fbjs/lib/getScrollPosition.js"],"draft-js/lib/editOnDragOver.js":[],"draft-js/lib/editOnDragStart.js":[],"draft-js/lib/editOnFocus.js":["draft-js/lib/EditorState.js","fbjs/lib/UserAgent.js"],"draft-js/lib/editOnInput.js":["draft-js/lib/DraftFeatureFlags.js","draft-js/lib/DraftModifier.js","draft-js/lib/DraftOffsetKey.js","draft-js/lib/EditorState.js","fbjs/lib/UserAgent.js","draft-js/lib/findAncestorOffsetKey.js","fbjs/lib/nullthrows.js"],"draft-js/lib/editOnKeyDown.js":["draft-js/lib/DraftModifier.js","draft-js/lib/EditorState.js","draft-js/lib/KeyBindingUtil.js","fbjs/lib/Keys.js","draft-js/lib/SecondaryClipboard.js","fbjs/lib/UserAgent.js","draft-js/lib/isEventHandled.js","draft-js/lib/keyCommandBackspaceToStartOfLine.js","draft-js/lib/keyCommandBackspaceWord.js","draft-js/lib/keyCommandDeleteWord.js","draft-js/lib/keyCommandInsertNewline.js","draft-js/lib/keyCommandMoveSelectionToEndOfBlock.js","draft-js/lib/keyCommandMoveSelectionToStartOfBlock.js","draft-js/lib/keyCommandPlainBackspace.js","draft-js/lib/keyCommandPlainDelete.js","draft-js/lib/keyCommandTransposeCharacters.js","draft-js/lib/keyCommandUndo.js"],"draft-js/lib/editOnPaste.js":["draft-js/lib/BlockMapBuilder.js","draft-js/lib/CharacterMetadata.js","fbjs/lib/DataTransfer.js","draft-js/lib/DraftModifier.js","draft-js/lib/DraftPasteProcessor.js","draft-js/lib/EditorState.js","draft-js/lib/RichTextEditorUtil.js","draft-js/lib/getEntityKeyForSelection.js","draft-js/lib/getTextContentFromFiles.js","draft-js/lib/isEventHandled.js","draft-js/lib/splitTextIntoTextBlocks.js"],"draft-js/lib/editOnSelect.js":["draft-js/lib/EditorState.js","react-dom/index.js","draft-js/lib/getDraftEditorSelection.js","fbjs/lib/invariant.js"],"fbjs/lib/VersionRange.js":["fbjs/lib/invariant.js"],"fbjs/lib/UserAgentData.js":["ua-parser-js/src/ua-parser.js"],"fbjs/lib/mapObject.js":[],"fbjs/lib/memoizeStringOnly.js":[],"fbjs/lib/getDocumentScrollElement.js":[],"fbjs/lib/getStyleProperty.js":["fbjs/lib/camelize.js","fbjs/lib/hyphenate.js"],"fbjs/lib/getUnboundedScrollPosition.js":[],"fbjs/lib/getElementRect.js":["fbjs/lib/containsNode.js"],"draft-js/lib/randomizeBlockMapKeys.js":["draft-js/lib/ContentBlockNode.js","immutable/dist/immutable.js","draft-js/lib/generateRandomKey.js"],"lodash/_freeGlobal.js":[],"draft-js/lib/getFragmentFromSelection.js":["draft-js/lib/getContentStateFragment.js"],"draft-js/lib/applyEntityToContentBlock.js":["draft-js/lib/CharacterMetadata.js"],"draft-js/lib/getNextDelimiterBlockKey.js":["draft-js/lib/ContentBlockNode.js"],"fbjs/lib/UnicodeBidiService.js":["fbjs/lib/UnicodeBidi.js","fbjs/lib/UnicodeBidiDirection.js","fbjs/lib/invariant.js"],"ua-parser-js/src/ua-parser.js":["brunch/node_modules/process/browser.js"],"draft-js/lib/findAncestorOffsetKey.js":["draft-js/lib/getSelectionOffsetKeyForNode.js"],"draft-js/lib/getTextContentFromFiles.js":["fbjs/lib/invariant.js"],"fbjs/lib/DataTransfer.js":["fbjs/lib/PhotosMimeType.js","fbjs/lib/createArrayFromMixed.js","fbjs/lib/emptyFunction.js"],"draft-js/lib/getUpdatedSelectionState.js":["draft-js/lib/DraftOffsetKey.js","fbjs/lib/nullthrows.js"],"draft-js/lib/isEventHandled.js":[],"draft-js/lib/getEntityKeyForSelection.js":[],"draft-js/lib/DraftEditorTextNode.react.js":["react/index.js","react-dom/index.js","fbjs/lib/UserAgent.js","fbjs/lib/invariant.js"],"draft-js/lib/DraftEntitySegments.js":[],"draft-js/lib/isSelectionAtLeafStart.js":[],"draft-js/lib/insertIntoList.js":[],"draft-js/lib/setDraftEditorSelection.js":["draft-js/lib/DraftJsDebugLogging.js","fbjs/lib/containsNode.js","fbjs/lib/getActiveElement.js","fbjs/lib/invariant.js"],"fbjs/lib/UnicodeUtils.js":["fbjs/lib/invariant.js"],"draft-js/lib/getRangesForDraftEntity.js":["fbjs/lib/invariant.js"],"draft-js/lib/getSelectionOffsetKeyForNode.js":[],"fbjs/lib/createArrayFromMixed.js":["fbjs/lib/invariant.js"],"fbjs/lib/PhotosMimeType.js":[],"fbjs/lib/setImmediate.js":["setimmediate/setImmediate.js"],"fbjs/lib/joinClasses.js":[],"draft-js/lib/keyCommandBackspaceToStartOfLine.js":["draft-js/lib/EditorState.js","draft-js/lib/expandRangeToStartOfLine.js","draft-js/lib/getDraftEditorSelectionWithNodes.js","draft-js/lib/moveSelectionBackward.js","draft-js/lib/removeTextWithStrategy.js"],"draft-js/lib/keyCommandBackspaceWord.js":["draft-js/lib/DraftRemovableWord.js","draft-js/lib/EditorState.js","draft-js/lib/moveSelectionBackward.js","draft-js/lib/removeTextWithStrategy.js"],"draft-js/lib/keyCommandDeleteWord.js":["draft-js/lib/DraftRemovableWord.js","draft-js/lib/EditorState.js","draft-js/lib/moveSelectionForward.js","draft-js/lib/removeTextWithStrategy.js"],"draft-js/lib/keyCommandInsertNewline.js":["draft-js/lib/DraftModifier.js","draft-js/lib/EditorState.js"],"draft-js/lib/SecondaryClipboard.js":["draft-js/lib/DraftModifier.js","draft-js/lib/EditorState.js","draft-js/lib/getContentStateFragment.js","fbjs/lib/nullthrows.js"],"draft-js/lib/keyCommandMoveSelectionToEndOfBlock.js":["draft-js/lib/EditorState.js"],"draft-js/lib/keyCommandMoveSelectionToStartOfBlock.js":["draft-js/lib/EditorState.js"],"draft-js/lib/keyCommandPlainBackspace.js":["draft-js/lib/EditorState.js","fbjs/lib/UnicodeUtils.js","draft-js/lib/moveSelectionBackward.js","draft-js/lib/removeTextWithStrategy.js"],"draft-js/lib/keyCommandPlainDelete.js":["draft-js/lib/EditorState.js","fbjs/lib/UnicodeUtils.js","draft-js/lib/moveSelectionForward.js","draft-js/lib/removeTextWithStrategy.js"],"draft-js/lib/keyCommandTransposeCharacters.js":["draft-js/lib/DraftModifier.js","draft-js/lib/EditorState.js","draft-js/lib/getContentStateFragment.js"],"draft-js/lib/keyCommandUndo.js":["draft-js/lib/EditorState.js"],"draft-js/lib/getDraftEditorSelection.js":["draft-js/lib/getDraftEditorSelectionWithNodes.js"],"draft-js/lib/DraftPasteProcessor.js":["object-assign/index.js","draft-js/lib/CharacterMetadata.js","draft-js/lib/ContentBlock.js","draft-js/lib/ContentBlockNode.js","draft-js/lib/DraftFeatureFlags.js","immutable/dist/immutable.js","draft-js/lib/convertFromHTMLToContentBlocks.js","draft-js/lib/generateRandomKey.js","draft-js/lib/getSafeBodyFromHTML.js","draft-js/lib/sanitizeDraftText.js"],"draft-js/lib/splitTextIntoTextBlocks.js":[],"draft-js/lib/expandRangeToStartOfLine.js":["fbjs/lib/UnicodeUtils.js","draft-js/lib/getRangeClientRects.js","fbjs/lib/invariant.js"],"draft-js/lib/DraftRemovableWord.js":["fbjs/lib/TokenizeUtil.js"],"draft-js/lib/getDraftEditorSelectionWithNodes.js":["draft-js/lib/findAncestorOffsetKey.js","draft-js/lib/getSelectionOffsetKeyForNode.js","draft-js/lib/getUpdatedSelectionState.js","fbjs/lib/invariant.js","fbjs/lib/nullthrows.js"],"draft-js/lib/moveSelectionBackward.js":[],"draft-js/lib/moveSelectionForward.js":[],"draft-js/lib/removeTextWithStrategy.js":["draft-js/lib/DraftModifier.js"],"setimmediate/setImmediate.js":["brunch/node_modules/process/browser.js"],"draft-js/lib/DraftJsDebugLogging.js":[],"fbjs/lib/TokenizeUtil.js":[]}, function(require) {
 
 (function() {
 var global = typeof window === 'undefined' ? this : window;
@@ -586,6 +586,196 @@ var __makeRelativeRequire = function(require, mappings, pref) {
     return require(name);
   }
 };
+
+require.register("brunch/node_modules/process/browser.js", function(exports, require, module) {
+  require = __makeRelativeRequire(require, {}, "brunch/node_modules/process");
+  (function() {
+    // shim for using process in browser
+var process = module.exports = {};
+
+// cached from whatever global is present so that test runners that stub it
+// don't break things.  But we need to wrap it in a try catch in case it is
+// wrapped in strict mode code which doesn't define any globals.  It's inside a
+// function because try/catches deoptimize in certain engines.
+
+var cachedSetTimeout;
+var cachedClearTimeout;
+
+function defaultSetTimout() {
+    throw new Error('setTimeout has not been defined');
+}
+function defaultClearTimeout () {
+    throw new Error('clearTimeout has not been defined');
+}
+(function () {
+    try {
+        if (typeof setTimeout === 'function') {
+            cachedSetTimeout = setTimeout;
+        } else {
+            cachedSetTimeout = defaultSetTimout;
+        }
+    } catch (e) {
+        cachedSetTimeout = defaultSetTimout;
+    }
+    try {
+        if (typeof clearTimeout === 'function') {
+            cachedClearTimeout = clearTimeout;
+        } else {
+            cachedClearTimeout = defaultClearTimeout;
+        }
+    } catch (e) {
+        cachedClearTimeout = defaultClearTimeout;
+    }
+} ())
+function runTimeout(fun) {
+    if (cachedSetTimeout === setTimeout) {
+        //normal enviroments in sane situations
+        return setTimeout(fun, 0);
+    }
+    // if setTimeout wasn't available but was latter defined
+    if ((cachedSetTimeout === defaultSetTimout || !cachedSetTimeout) && setTimeout) {
+        cachedSetTimeout = setTimeout;
+        return setTimeout(fun, 0);
+    }
+    try {
+        // when when somebody has screwed with setTimeout but no I.E. maddness
+        return cachedSetTimeout(fun, 0);
+    } catch(e){
+        try {
+            // When we are in I.E. but the script has been evaled so I.E. doesn't trust the global object when called normally
+            return cachedSetTimeout.call(null, fun, 0);
+        } catch(e){
+            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error
+            return cachedSetTimeout.call(this, fun, 0);
+        }
+    }
+
+
+}
+function runClearTimeout(marker) {
+    if (cachedClearTimeout === clearTimeout) {
+        //normal enviroments in sane situations
+        return clearTimeout(marker);
+    }
+    // if clearTimeout wasn't available but was latter defined
+    if ((cachedClearTimeout === defaultClearTimeout || !cachedClearTimeout) && clearTimeout) {
+        cachedClearTimeout = clearTimeout;
+        return clearTimeout(marker);
+    }
+    try {
+        // when when somebody has screwed with setTimeout but no I.E. maddness
+        return cachedClearTimeout(marker);
+    } catch (e){
+        try {
+            // When we are in I.E. but the script has been evaled so I.E. doesn't  trust the global object when called normally
+            return cachedClearTimeout.call(null, marker);
+        } catch (e){
+            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error.
+            // Some versions of I.E. have different rules for clearTimeout vs setTimeout
+            return cachedClearTimeout.call(this, marker);
+        }
+    }
+
+
+
+}
+var queue = [];
+var draining = false;
+var currentQueue;
+var queueIndex = -1;
+
+function cleanUpNextTick() {
+    if (!draining || !currentQueue) {
+        return;
+    }
+    draining = false;
+    if (currentQueue.length) {
+        queue = currentQueue.concat(queue);
+    } else {
+        queueIndex = -1;
+    }
+    if (queue.length) {
+        drainQueue();
+    }
+}
+
+function drainQueue() {
+    if (draining) {
+        return;
+    }
+    var timeout = runTimeout(cleanUpNextTick);
+    draining = true;
+
+    var len = queue.length;
+    while(len) {
+        currentQueue = queue;
+        queue = [];
+        while (++queueIndex < len) {
+            if (currentQueue) {
+                currentQueue[queueIndex].run();
+            }
+        }
+        queueIndex = -1;
+        len = queue.length;
+    }
+    currentQueue = null;
+    draining = false;
+    runClearTimeout(timeout);
+}
+
+process.nextTick = function (fun) {
+    var args = new Array(arguments.length - 1);
+    if (arguments.length > 1) {
+        for (var i = 1; i < arguments.length; i++) {
+            args[i - 1] = arguments[i];
+        }
+    }
+    queue.push(new Item(fun, args));
+    if (queue.length === 1 && !draining) {
+        runTimeout(drainQueue);
+    }
+};
+
+// v8 likes predictible objects
+function Item(fun, array) {
+    this.fun = fun;
+    this.array = array;
+}
+Item.prototype.run = function () {
+    this.fun.apply(null, this.array);
+};
+process.title = 'browser';
+process.browser = true;
+process.env = {};
+process.argv = [];
+process.version = ''; // empty string to avoid regexp issues
+process.versions = {};
+
+function noop() {}
+
+process.on = noop;
+process.addListener = noop;
+process.once = noop;
+process.off = noop;
+process.removeListener = noop;
+process.removeAllListeners = noop;
+process.emit = noop;
+process.prependListener = noop;
+process.prependOnceListener = noop;
+
+process.listeners = function (name) { return [] }
+
+process.binding = function (name) {
+    throw new Error('process.binding is not supported');
+};
+
+process.cwd = function () { return '/' };
+process.chdir = function (dir) {
+    throw new Error('process.chdir is not supported');
+};
+process.umask = function() { return 0; };
+  })();
+});
 
 require.register("draft-js/lib/AtomicBlockUtils.js", function(exports, require, module) {
   require = __makeRelativeRequire(require, {}, "draft-js");
@@ -20759,196 +20949,6 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
 	return to;
 };
-  })();
-});
-
-require.register("process/browser.js", function(exports, require, module) {
-  require = __makeRelativeRequire(require, {}, "process");
-  (function() {
-    // shim for using process in browser
-var process = module.exports = {};
-
-// cached from whatever global is present so that test runners that stub it
-// don't break things.  But we need to wrap it in a try catch in case it is
-// wrapped in strict mode code which doesn't define any globals.  It's inside a
-// function because try/catches deoptimize in certain engines.
-
-var cachedSetTimeout;
-var cachedClearTimeout;
-
-function defaultSetTimout() {
-    throw new Error('setTimeout has not been defined');
-}
-function defaultClearTimeout () {
-    throw new Error('clearTimeout has not been defined');
-}
-(function () {
-    try {
-        if (typeof setTimeout === 'function') {
-            cachedSetTimeout = setTimeout;
-        } else {
-            cachedSetTimeout = defaultSetTimout;
-        }
-    } catch (e) {
-        cachedSetTimeout = defaultSetTimout;
-    }
-    try {
-        if (typeof clearTimeout === 'function') {
-            cachedClearTimeout = clearTimeout;
-        } else {
-            cachedClearTimeout = defaultClearTimeout;
-        }
-    } catch (e) {
-        cachedClearTimeout = defaultClearTimeout;
-    }
-} ())
-function runTimeout(fun) {
-    if (cachedSetTimeout === setTimeout) {
-        //normal enviroments in sane situations
-        return setTimeout(fun, 0);
-    }
-    // if setTimeout wasn't available but was latter defined
-    if ((cachedSetTimeout === defaultSetTimout || !cachedSetTimeout) && setTimeout) {
-        cachedSetTimeout = setTimeout;
-        return setTimeout(fun, 0);
-    }
-    try {
-        // when when somebody has screwed with setTimeout but no I.E. maddness
-        return cachedSetTimeout(fun, 0);
-    } catch(e){
-        try {
-            // When we are in I.E. but the script has been evaled so I.E. doesn't trust the global object when called normally
-            return cachedSetTimeout.call(null, fun, 0);
-        } catch(e){
-            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error
-            return cachedSetTimeout.call(this, fun, 0);
-        }
-    }
-
-
-}
-function runClearTimeout(marker) {
-    if (cachedClearTimeout === clearTimeout) {
-        //normal enviroments in sane situations
-        return clearTimeout(marker);
-    }
-    // if clearTimeout wasn't available but was latter defined
-    if ((cachedClearTimeout === defaultClearTimeout || !cachedClearTimeout) && clearTimeout) {
-        cachedClearTimeout = clearTimeout;
-        return clearTimeout(marker);
-    }
-    try {
-        // when when somebody has screwed with setTimeout but no I.E. maddness
-        return cachedClearTimeout(marker);
-    } catch (e){
-        try {
-            // When we are in I.E. but the script has been evaled so I.E. doesn't  trust the global object when called normally
-            return cachedClearTimeout.call(null, marker);
-        } catch (e){
-            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error.
-            // Some versions of I.E. have different rules for clearTimeout vs setTimeout
-            return cachedClearTimeout.call(this, marker);
-        }
-    }
-
-
-
-}
-var queue = [];
-var draining = false;
-var currentQueue;
-var queueIndex = -1;
-
-function cleanUpNextTick() {
-    if (!draining || !currentQueue) {
-        return;
-    }
-    draining = false;
-    if (currentQueue.length) {
-        queue = currentQueue.concat(queue);
-    } else {
-        queueIndex = -1;
-    }
-    if (queue.length) {
-        drainQueue();
-    }
-}
-
-function drainQueue() {
-    if (draining) {
-        return;
-    }
-    var timeout = runTimeout(cleanUpNextTick);
-    draining = true;
-
-    var len = queue.length;
-    while(len) {
-        currentQueue = queue;
-        queue = [];
-        while (++queueIndex < len) {
-            if (currentQueue) {
-                currentQueue[queueIndex].run();
-            }
-        }
-        queueIndex = -1;
-        len = queue.length;
-    }
-    currentQueue = null;
-    draining = false;
-    runClearTimeout(timeout);
-}
-
-process.nextTick = function (fun) {
-    var args = new Array(arguments.length - 1);
-    if (arguments.length > 1) {
-        for (var i = 1; i < arguments.length; i++) {
-            args[i - 1] = arguments[i];
-        }
-    }
-    queue.push(new Item(fun, args));
-    if (queue.length === 1 && !draining) {
-        runTimeout(drainQueue);
-    }
-};
-
-// v8 likes predictible objects
-function Item(fun, array) {
-    this.fun = fun;
-    this.array = array;
-}
-Item.prototype.run = function () {
-    this.fun.apply(null, this.array);
-};
-process.title = 'browser';
-process.browser = true;
-process.env = {};
-process.argv = [];
-process.version = ''; // empty string to avoid regexp issues
-process.versions = {};
-
-function noop() {}
-
-process.on = noop;
-process.addListener = noop;
-process.once = noop;
-process.off = noop;
-process.removeListener = noop;
-process.removeAllListeners = noop;
-process.emit = noop;
-process.prependListener = noop;
-process.prependOnceListener = noop;
-
-process.listeners = function (name) { return [] }
-
-process.binding = function (name) {
-    throw new Error('process.binding is not supported');
-};
-
-process.cwd = function () { return '/' };
-process.chdir = function (dir) {
-    throw new Error('process.chdir is not supported');
-};
-process.umask = function() { return 0; };
   })();
 });
 
@@ -44247,6 +44247,15 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 // import PropTypes from 'prop-types';
 
 
+var styleMap = {
+  'FONTSIZE': {
+    fontSize: 10
+  },
+  'FONTCOLOR': {
+    color: "red"
+  }
+};
+
 var MainContainer = function (_React$Component) {
   _inherits(MainContainer, _React$Component);
 
@@ -44272,6 +44281,16 @@ var MainContainer = function (_React$Component) {
       this.props.onChange(_draftJs.RichUtils.toggleInlineStyle(this.props.editorState, 'UNDERLINE'));
     }
   }, {
+    key: '_onFontSizeClick',
+    value: function _onFontSizeClick() {
+      this.props.onChange(_draftJs.RichUtils.toggleInlineStyle(this.props.editorState, 'FONTSIZE'));
+    }
+  }, {
+    key: '_onFontColorClick',
+    value: function _onFontColorClick() {
+      this.props.onChange(_draftJs.RichUtils.toggleInlineStyle(this.props.editorState, 'FONTCOLOR'));
+    }
+  }, {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
@@ -44295,9 +44314,20 @@ var MainContainer = function (_React$Component) {
             { onClick: this._onUnderlineClick.bind(this) },
             'Underline'
           ),
+          _react2.default.createElement(
+            'button',
+            { onClick: this._onFontSizeClick.bind(this) },
+            'Font Size'
+          ),
+          _react2.default.createElement(
+            'button',
+            { onClick: this._onFontColorClick.bind(this) },
+            'Font COLOR'
+          ),
           _react2.default.createElement(_draftJs.Editor, {
             editorState: this.props.editorState || _draftJs.EditorState.createEmpty(),
-            onChange: this.props.onChange
+            onChange: this.props.onChange,
+            customStyleMap: styleMap
           })
         )
       );
@@ -44412,7 +44442,7 @@ require.alias("draft-js/lib/Draft.js", "draft-js");
 require.alias("hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js", "hoist-non-react-statics");
 require.alias("immutable/dist/immutable.js", "immutable");
 require.alias("invariant/browser.js", "invariant");
-require.alias("process/browser.js", "process");
+require.alias("brunch/node_modules/process/browser.js", "process");
 require.alias("react-redux/lib/index.js", "react-redux");
 require.alias("redux/lib/index.js", "redux");
 require.alias("setimmediate/setImmediate.js", "setimmediate");
