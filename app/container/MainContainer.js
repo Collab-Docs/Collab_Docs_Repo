@@ -34,6 +34,7 @@ const styleMap = {
   },
 };
 
+<<<<<<< HEAD
 const getBlockStyle = (block) => { //zzzz
   console.log(block.getType());
   console.log(block);
@@ -49,6 +50,8 @@ const getBlockStyle = (block) => { //zzzz
     }
 }
 
+=======
+>>>>>>> 63683636766c451f4e6663a8c8348e57d9316237
 class MainContainer extends React.Component {
   _onBoldClick() {
     this.props.onChange(RichUtils.toggleInlineStyle(
@@ -151,7 +154,10 @@ class MainContainer extends React.Component {
           editorState = {this.props.editorState || EditorState.createEmpty()}
           onChange = {this.props.onChange}
           customStyleMap = {styleMap}
+<<<<<<< HEAD
           blockStyleFn={getBlockStyle} //zzzz
+=======
+>>>>>>> 63683636766c451f4e6663a8c8348e57d9316237
           />
       </div>
     </div>
