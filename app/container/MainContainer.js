@@ -3,9 +3,10 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { Editor, EditorState, RichUtils } from 'draft-js';
 import { onChange } from '../actions/index';
-import createAutoListPlugin from 'draft-js-autolist-plugin'
 
-const autoListPlugin = createAutoListPlugin();
+import Button from '@material-ui/core/Button';
+import AppBar from '@material-ui/core/AppBar';
+
 
 const styleMap = {
    'FONTSIZE': {
@@ -69,13 +70,17 @@ class MainContainer extends React.Component {
   render() {
     return (
       <div>
-        <button onClick={this._onBoldClick.bind(this)}>Bold</button>
-        <button onClick={this._onItalicClick.bind(this)}>Italicize</button>
-        <button onClick={this._onUnderlineClick.bind(this)}>Underline</button>
-        <button onClick={this._onFontSizeClick.bind(this)}>Font Size</button>
-        <button onClick={this._onFontColorClick.bind(this)}>Font Color</button>
-        <button onClick={this.createBulletPoints.bind(this)}>Bullet points</button>
-        <button onClick={this.createNumberPoints.bind(this)}>Number points</button>
+        <AppBar position="absolute">Collab Docs</AppBar>
+        <br></br>
+        <br></br>
+        <Button variant="text" color="primary" onClick={this._onBoldClick.bind(this)}>Bold</Button>
+        <Button variant="text" color="primary"  onClick={this._onItalicClick.bind(this)}>Italicize</Button>
+        <Button variant="text" color="primary"  onClick={this._onUnderlineClick.bind(this)}>Underline</Button>
+        <Button variant="text" color="primary"  onClick={this._onFontSizeClick.bind(this)}>Font Size</Button>
+        <Button variant="text" color="primary"  onClick={this._onFontColorClick.bind(this)}>Font Color</Button>
+        <Button variant="text" color="primary"  onClick={this.createBulletPoints.bind(this)}>Bullet points</Button>
+        <Button variant="text" color="primary"  onClick={this.createNumberPoints.bind(this)}>Number points</Button>
+        <Button variant="text" color="primary">SAVE</Button>
 
         <div className="editor">
           <Editor
