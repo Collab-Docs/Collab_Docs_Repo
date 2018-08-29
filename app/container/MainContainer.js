@@ -70,16 +70,38 @@ class MainContainer extends React.Component {
   render() {
     return (
       <div>
-        <AppBar position="absolute">Collab Docs</AppBar>
+        <AppBar position='absolute'>
+           <nav>
+             <div className="nav-wrapper">
+               <i className="material-icons">cloud</i>
+               Collab Docs
+             </div>
+           </nav>
+         </AppBar>
         <br></br>
         <br></br>
-        <Button variant="text" color="primary" onClick={this._onBoldClick.bind(this)}>Bold</Button>
-        <Button variant="text" color="primary"  onClick={this._onItalicClick.bind(this)}>Italicize</Button>
-        <Button variant="text" color="primary"  onClick={this._onUnderlineClick.bind(this)}>Underline</Button>
-        <Button variant="text" color="primary"  onClick={this._onFontSizeClick.bind(this)}>Font Size</Button>
-        <Button variant="text" color="primary"  onClick={this._onFontColorClick.bind(this)}>Font Color</Button>
-        <Button variant="text" color="primary"  onClick={this.createBulletPoints.bind(this)}>Bullet points</Button>
-        <Button variant="text" color="primary"  onClick={this.createNumberPoints.bind(this)}>Number points</Button>
+        {/* <IconButton iconStyle={} onClick={this._onBoldClick.bind(this)}></IconButton> */}
+        <Button variant="text" color="primary" onClick={this._onBoldClick.bind(this)}>
+          <i className="material-icons">format_bold</i>
+        </Button>
+        <Button variant="text" color="primary"  onClick={this._onItalicClick.bind(this)}>
+          <i className="material-icons">format_italic</i>
+        </Button>
+        <Button variant="text" color="primary"  onClick={this._onUnderlineClick.bind(this)}>
+          <i className="material-icons">format_underlined</i>
+        </Button>
+        <Button variant="text" color="primary"  onClick={this._onFontSizeClick.bind(this)}>
+          <i className="material-icons">format_size</i>
+        </Button>
+        <Button variant="text" color="primary"  onClick={this._onFontColorClick.bind(this)}>
+          <i className="material-icons">format_color_text</i>
+        </Button>
+        <Button variant="text" color="primary"  onClick={this.createBulletPoints.bind(this)}>
+          <i className="material-icons">format_list_bulleted</i>
+        </Button>
+        <Button variant="text" color="primary"  onClick={this.createNumberPoints.bind(this)}>
+          <i className="material-icons">format_list_numbered</i>
+        </Button>
         <Button variant="text" color="primary">SAVE</Button>
 
         <div className="editor">
